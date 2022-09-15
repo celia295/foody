@@ -15,6 +15,12 @@ def index():
 def perdu():
     return template('templates/perdu.tpl')
 
+# Page communauté
+@route('/communaute')
+def communaute():
+    return template('templates/communaute.tpl')
+
+
 """
 On ouvre un serveur en local sur le port 7000
 Tapez http://localhost:7000/ dans le navigateur pour accéder au site après
