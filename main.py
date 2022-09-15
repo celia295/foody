@@ -11,6 +11,9 @@ def server_static(filepath):
 def index():
     return template('templates/index.tpl')
 
+@route('/perdu')
+def perdu():
+    return template('templates/perdu.tpl')
 
 """
 On ouvre un serveur en local sur le port 7000
