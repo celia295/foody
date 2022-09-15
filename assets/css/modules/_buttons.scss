@@ -1,0 +1,15 @@
+.button {
+  font-family: $font-heading;
+  margin: $spacing;
+}
+
+.button-style-1 {
+  color: $color-red;
+}
+
+.button-style-2 {
+  color: $color-white;
+  background-color: $color-red;
+  padding: $spacing $spacing * 1.5;
+  border-radius: $spacing;
+}
